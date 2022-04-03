@@ -322,3 +322,25 @@ git branch -m "New Branch Name"
 ```bash
 git merge "Branch Name You Need To Merge"
 ```
+
+## 13 - Mastering Stash Part 1
+
+###### Create Text File With "Hello World" String Inside It
+```bash
+echo "Hello World" > about_readme.txt
+```
+
+###### Save Work To Stash
+```bash
+git stash
+```
+
+###### List Items in Stash
+```bash
+git stash list
+```
+
+###### Get Work From Stash
+```bash
+git stash pop
+```
