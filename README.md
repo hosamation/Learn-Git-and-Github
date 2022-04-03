@@ -187,3 +187,50 @@ cat C:\Users\osama\.ssh\id_rsa.pub
 ```bash
 ssh -T git@github.com
 ```
+
+## 09 - Create Repository From Existing Project
+
+###### Create New Directory
+```bash
+mkdir "Your Directory Name Here"
+```
+
+###### Initialize Empty Git Repository
+```bash
+git init
+```
+
+###### Create Empty File
+```bash
+touch "Your File Name Here"
+```
+
+###### Show Status
+```bash
+git status
+```
+
+###### Add Files
+```bash
+git add <File> <File>
+```
+
+###### Commit File
+```bash
+git commit -m "Your Commit Message Here"
+```
+
+###### Add Repository
+```bash
+git remote add origin "SSH Repository URL"
+```
+
+###### Example
+```bash
+git remote add origin "git@github.com:OsamaElzero/Course.git"
+```
+
+###### Push Data
+```bash
+git push -u origin master
+```
