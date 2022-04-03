@@ -391,3 +391,20 @@ git stash show stash@{1}
 ```bash
 git stash clear
 ```
+
+## 15 - Restore And Clean
+
+###### Restore Staged Files
+```bash
+git restore --staged "File Name Here"
+```
+
+###### Show Files That Will Be Cleaned
+```bash
+git clean -n
+```
+
+###### Remove Un Needed Files
+```bash
+git clean -f
+```
