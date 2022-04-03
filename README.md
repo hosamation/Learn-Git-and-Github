@@ -73,3 +73,25 @@
 ```bash
 git clone "Your Repository URL"
 ```
+
+## 04 - Add, Reset, Commit And Progress
+
+###### Add Files
+
+```bash
+git add <File> <File>
+git add *.extension
+git add *
+```
+
+###### Show Satus
+
+```bash
+git status
+```
+
+###### Commit Changes
+
+```bash
+git commit -m "Commit Message Here"
+```
