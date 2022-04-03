@@ -67,3 +67,9 @@
 - Anyone Can Push and Pull Depend On Permissions.
 
 - Github Or Any Host is The Centralized Server and Team PCs is Th Working Copies
+
+## 03 - Create GitHub Repository And Clone It
+
+```bash
+git clone "Your Repository URL"
+```
