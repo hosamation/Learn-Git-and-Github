@@ -238,3 +238,55 @@ git push -u origin master
 ## 10 - Pull Requests With Real Examples
 
 No Code 
+
+## 11 - Everything About Aliases
+
+###### Make Alias For Command "status"
+```bash
+git config --global alias.st status
+```
+
+###### Show Alias Content
+```bash
+git config --global alias.st
+```
+
+###### Test "status" Command
+```bash
+git st
+```
+
+###### Make Alias For Command "branch"
+```bash
+git config --global alias.br branch
+```
+
+###### Show Alias Content
+```bash
+git config --global alias.br
+```
+
+###### Test "branch" Command
+```bash
+git br
+```
+
+###### Make Alias For Command "commit -m"
+```bash
+git config --global alias.cm "commit -m"
+```
+
+###### Show Alias Content
+```bash
+git config --global alias.cm
+```
+
+###### Test "branch" Command
+```bash
+git cm
+```
+
+###### Show All Edits
+```bash
+git config --global --edit
+```
