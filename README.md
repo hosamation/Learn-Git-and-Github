@@ -162,3 +162,28 @@ git config --global --edit
 ```bash
 touch "File Name Here"
 ```
+
+## 08 - Generate And Test Github Public Key
+
+###### Generate Key
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "Your GitHub Email Here"
+```
+
+###### Get Key To Copy
+
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
+###### Same Command Example in Windows "Change Osama With Your Username"
+
+```bash
+cat C:\Users\osama\.ssh\id_rsa.pub
+```
+###### Test Key And Connection
+
+```bash
+ssh -T git@github.com
+```
