@@ -477,3 +477,8 @@ git tag -d "Version Name Or Tag Name Here"
 ```bash
 git push origin --delete "Version Name Or Tag Name Here"
 ```
+
+## 20 - The End And Advices
+
+
+[Git Handbook](https://www.amazon.com/Git-Version-Control-Cookbook-Productivity/dp/1782168451)
