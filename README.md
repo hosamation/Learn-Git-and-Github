@@ -33,3 +33,37 @@
 - You Can Solve Conflicts
 
 - You Can Organize Features
+
+## 02 - What Is Git And GitHub ? Part 2
+
+### Words You Will Hear
+
+- Repository
+
+- Branch
+
+- Local Repo
+
+- Remote Repo
+
+- Commit (Snapshot or Checkpoint In Your Local Repo)
+
+- Clone [ From Local Or Remote ]
+
+- Push [ Upload Local Changes to Remote ]
+
+- Pull [ You Pull Changes From Remote Repo To Your Local ]
+
+- Pull Request [ Tell Other About Your Changes To Pull It From Local To Remote ]
+
+### Important Notes
+
+- Create Repository For Every Project.
+
+- Create A New Branch For Every Feature or Enhancement.
+
+- No Need To Connect To Remote Repo When Working.
+
+- Anyone Can Push and Pull Depend On Permissions.
+
+- Github Or Any Host is The Centralized Server and Team PCs is Th Working Copies
