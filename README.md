@@ -344,3 +344,50 @@ git stash list
 ```bash
 git stash pop
 ```
+
+## 14 - Mastering Stash Part 2
+
+###### Save Work To Stash
+```bash
+git stash
+```
+
+###### List Items in Stash
+```bash
+git stash list
+```
+
+###### Get Work From Stash
+```bash
+git stash pop
+```
+
+###### Save Work To Stash With Description
+```bash
+git stash save "Description Here"
+```
+
+###### Get Specific Stash
+```bash
+git stash pop stash@{2}
+```
+
+###### Delete Stash
+```bash
+git stash drop stash@{1}
+```
+
+###### Show Lastest Added Stash Content
+```bash
+git stash show
+```
+
+###### Show Specific Stash Content
+```bash
+git stash show stash@{1}
+```
+
+###### Empty The Stash
+```bash
+git stash clear
+```
