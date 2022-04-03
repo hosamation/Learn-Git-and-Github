@@ -95,3 +95,30 @@ git status
 ```bash
 git commit -m "Commit Message Here"
 ```
+
+## 05 - Push Local Changes To Remote Repository
+
+###### Show Branches
+
+```bash
+git branch
+git remote -v
+```
+
+###### Push Changes
+
+```bash
+git push origin main
+```
+
+###### Add Files
+
+```bash
+git add <File> <File>
+```
+
+###### Commit Changes
+
+```bash
+git commit -m "Commit Message Here"
+```
