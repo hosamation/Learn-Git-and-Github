@@ -130,3 +130,35 @@ git commit -m "Commit Message Here"
 ```bash
 git pull origin
 ```
+
+## 07 - Everything About Git Configurations
+
+###### Show All Configurations
+
+```bash
+git help config
+```
+
+###### Show User Email
+
+```bash
+git config --global user.email
+```
+
+###### Change User Email
+
+```bash
+git config --global user.email "Your Github Email Here"
+```
+
+###### Edit Configuration
+
+```bash
+git config --global --edit
+```
+
+###### Create New File
+
+```bash
+touch "File Name Here"
+```
