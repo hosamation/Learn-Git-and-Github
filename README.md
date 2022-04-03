@@ -122,3 +122,11 @@ git add <File> <File>
 ```bash
 git commit -m "Commit Message Here"
 ```
+
+## 06 - Pull Changes From Remote Repository
+
+###### Pull Changes From Remote Repository
+
+```bash
+git pull origin
+```
