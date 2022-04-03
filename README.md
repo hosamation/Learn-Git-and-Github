@@ -438,3 +438,25 @@ text.txt
 ```
 
 [Git Ignore Reference](https://git-scm.com/docs/gitignore)
+
+## 18 - Tagging And Releasing Part 1
+
+###### Show All Tags
+```bash
+git tag
+```
+
+###### Add New Lightweight Tag
+```bash
+git tag "Version Name Or Tag Name Here"
+```
+
+###### Add New Annotated Tag
+```bash
+git tag -a "Version Name Or Tag Name Here" -m "Description Or Message"
+```
+
+###### Push Tag To Remote
+```bash
+git push origin "Tag Name Here"
+```
