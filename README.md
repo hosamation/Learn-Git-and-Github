@@ -290,3 +290,35 @@ git cm
 ```bash
 git config --global --edit
 ```
+
+## 12 - Branching And Merging
+
+###### Show Branches
+```bash
+git branch
+```
+
+###### Switch To Branch
+```bash
+git checkout "Branch Name"
+```
+
+###### Delete Branch
+```bash
+git branch -d "Branch Name"
+```
+
+###### Create Branch And Switch To It
+```bash
+git checkout -b "Branch Name"
+```
+
+###### Move / Rename Branch
+```bash
+git branch -m "New Branch Name"
+```
+
+###### Merge Branch With Current Branch
+```bash
+git merge "Branch Name You Need To Merge"
+```
