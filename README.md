@@ -425,3 +425,16 @@ git reset --hard "Commit Hash Here"
 ```bash
 git push origin main --force
 ```
+
+## 17 - Ignoring Files And Directories
+
+###### gitignore contents
+
+```bash
+*.log
+!vip.log
+node_packs/
+text.txt
+```
+
+[Git Ignore Reference](https://git-scm.com/docs/gitignore)
