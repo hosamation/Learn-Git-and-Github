@@ -460,3 +460,20 @@ git tag -a "Version Name Or Tag Name Here" -m "Description Or Message"
 ```bash
 git push origin "Tag Name Here"
 ```
+
+## 19 - Tagging And Releasing Part 2
+
+###### List All Tags Starting With v1.
+```bash
+git tag -l "v1.*"
+```
+
+###### Delete Tag
+```bash
+git tag -d "Version Name Or Tag Name Here"
+```
+
+###### Delete Tag From Remote
+```bash
+git push origin --delete "Version Name Or Tag Name Here"
+```
