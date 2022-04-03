@@ -408,3 +408,20 @@ git clean -n
 ```bash
 git clean -f
 ```
+
+## 16 - Resetting The Head
+
+###### Show Log File
+```bash
+git log
+```
+
+###### Reset Head
+```bash
+git reset --hard "Commit Hash Here"
+```
+
+###### Push Edits From Local To Remote With Force Flag
+```bash
+git push origin main --force
+```
